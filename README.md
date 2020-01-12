@@ -17,4 +17,5 @@ Parts:
   * ORANGE LiPo Battery 3000mAh, 30C, 3 cell 11.1V
   * Pixhawk 2.4.6 32bit ARM RC Flight Controller (has in-built GPS and Magnetometer)
   * Remote Controller Model: FlySky FS-i6 2.4G 6CH AFHDS RC Transmitter With FS-iA6B Receiver
+  * Current Firmware: Megapirate Ng
   
