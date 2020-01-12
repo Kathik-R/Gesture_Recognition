@@ -8,6 +8,7 @@ STAGE 2: Use Microbits and MicroPython code to move from a remote controller to 
 STAGE 3: Use Machine Learning and Computer Vision to enable the drone to react to hand gestures and act accordingly. (STATUS- Yet to begin)
 
 ABOUT THE QUADCOPTER
+
 Parts:
   * Quadcopter Frame Model: F450 HJ450 DJI
   * A2212 1000KV (brushless motor)
