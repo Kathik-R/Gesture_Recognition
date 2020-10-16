@@ -1,5 +1,5 @@
 # Gesture_Recognition_Drone
-The plan is to execute the idea in three stages
+The plan is to execute the idea in two stages
 
 STAGE 1: Build a PIXHAWK Microprocessor based drone that can execute predetermined flight objectives. (STATUS- Complete)
 
