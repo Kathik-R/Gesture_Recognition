@@ -19,17 +19,12 @@ Parts:
 
 HAND DETECTION MODEL:
   * I have used the model from CMU's Paper on Hand Keypoint Detection in Single Images using Multiview Bootstrapping.
+  * an initial keypoint detector is used to produce noisy labels in multiple views of the hand
+  * the noisy detections are then triangulated in 3D using multiview geometry or marked as outliers
+  * finally, the reprojected triangulations are used as new labeled training data to improve the detector
+  * this process is repeated, generating more labeled data in each iteration. A result is derived analytically relating the minimum number of views to achieve target true and false positive rates for a given detector. The method is used to train a hand keypoint detector for single images.
   
   LINK TO THE PAPER: https://arxiv.org/pdf/1704.07809v1.pdf
-  
-  DETAILS:
-    * an initial keypoint detector is used to produce noisy labels in multiple views of the hand
-    
-    * the noisy detections are then triangulated in 3D using multiview geometry or marked as outliers
-    
-    * finally, the reprojected triangulations are used as new labeled training data to improve the detector
-    
-    * this process is repeated, generating more labeled data in each iteration. A result is derived analytically relating the minimum number of views to achieve target true and false positive rates for a given detector. The method is used to train a hand keypoint detector for single images.
 
 LATEST UPDATE:
   * The quadcopter has logged in more than 5 hours of flight time and can traverse predetermined flighpaths based communicated using MAVSDK Python library.
