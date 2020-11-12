@@ -27,5 +27,5 @@ HAND DETECTION MODEL:
   LINK TO THE PAPER: https://arxiv.org/pdf/1704.07809v1.pdf
 
 LATEST UPDATE:
-  * The quadcopter has logged in more than 5 hours of flight time and can traverse predetermined flighpaths based communicated using MAVSDK Python library.
+  * The quadcopter has logged in more than 5 hours of flight time and can traverse predetermined flighpaths communicated using MAVSDK Python library.
   * The hand keypoint detector while very accurate is taking 5 seconds for detection per frame on my system which is not fast enough for a safe flight. The paper does add that the model can be run in realtime using GPUs which I don't have at the moment. Currently working on improving results.
